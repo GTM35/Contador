@@ -82,7 +82,7 @@ main {
 
 /* Mobile */
 
-@media (min-width: 320px) {
+@media (max-width: 768px) {
   .button-container input:hover {
     transform: none;
   }
