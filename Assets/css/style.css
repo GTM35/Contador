@@ -1,5 +1,96 @@
 * {
-  padding: 0;
-  margin: 0;
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  background-color: #eeeef0;
+}
+
+.title-container h1 {
+  color: #102b42;
+  font-size: 4rem;
+}
+
+.number-container {
+  margin: 20px 0;
+}
+
+.number-container p {
+  color: #35393c;
+  font-size: 4rem;
+}
+
+.button-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button input {
+  border: 2px solid #35393c;
+  border-radius: 5px;
+  color: #35393c;
+  cursor: pointer;
+  font-weight: bolder;
+  height: 30px;
+  letter-spacing: 2px;
+  margin: 5px;
+  transition: all 0.2s;
+  width: 100px;
+}
+
+.button-container input:hover {
+  transform: scale(1.1);
+}
+
+.diminuir input:hover {
+  border-color: #ac190c;
+  color: #d21f0f;
+}
+
+.reset input:hover {
+  border-color: #9f8d19;
+  color: #c2ac1e;
+}
+
+.aumentar input:hover {
+  border-color: #209211;
+  color: #28b715;
+}
+
+/* Numbers */
+
+.numberPositive {
+  color: #008000 !important;
+}
+
+.numberReset {
+  color: #35393c !important;
+}
+
+.numberNegative {
+  color: #d21f0f !important;
+}
+
+/* Mobile */
+
+@media (min-width: 320px) {
+  .button-container input:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .button input {
+    height: 30px;
+    width: 90px;
+  }
 }
