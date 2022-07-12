@@ -1,10 +1,9 @@
 # Contador
 
 > ⚠️ Este projeto foi baseado na lista de projetos do Autor Daniel Rosa, publicado em seu Blog. Acesse [aqui](https://www.freecodecamp.org/portuguese/news/40-projetos-em-javascript-para-iniciantes-ideias-simples-para-comecar-a-programar-em-js/).
-
 <br/>
 
-O Projeto Contador tem como principal função ser um simples contador, onde você pode acrescentar, retirar e Resetar.
+O Projeto tem como principal função ser um simples contador, onde você pode Aumentar, Diminuir e Redefinir.
 
 Para este projeto foi utilizado as seguintes tecnologias:
 
@@ -12,16 +11,11 @@ Para este projeto foi utilizado as seguintes tecnologias:
 - CSS3
 - JavaScript
 
-<br/>
-
-Versão Mobile:
+### Versão Mobile:
 <img src="Assets/Github/mobile.jpeg" height="800" />
 
-Versão DeskTop:
+### Versão DeskTop:
 
 <img src="Assets/Github/desktop.png"/>
 
-<br/>
-<br/>
-
-Para visualizar o projeto, [Clique Aqui](https://gtm35.github.io/Contador/).
+Para visualizar o projeto em produção, [Clique Aqui](https://gtm35.github.io/Contador/).
